@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appColor">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:fontFamily="@font/metro_m"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:paddingStart="15dp"/>
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/dots"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            android:src="@drawable/dots"
+            app:tint="@color/white" />
+    </RelativeLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:layout_below="@id/top"
+            android:layout_width="match_parent"
+            android:id="@+id/shimmer"
+            android:layout_height="match_parent">
+        <include layout="@layout/shimmer1"/>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+      <ScrollView
+          android:layout_below="@id/top"
+          android:visibility="invisible"
+          android:id="@+id/l2"
+         android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+              <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/hottopic"
+                    android:src="@drawable/study"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"/>
+                  <View
+                      android:layout_width="match_parent"
+                      android:layout_height="5dp"
+                      android:background="#EEEEEE"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Faculties"
+                      android:padding="10dp"
+                      android:layout_marginBottom="5dp"
+                      android:background="#fff"
+                      android:textColor="#000"
+                      android:textSize="22sp"
+                      android:fontFamily="@font/century_gothic_bold"
+                      android:textStyle="bold"
+                      />
+                  <androidx.recyclerview.widget.RecyclerView
+                      android:visibility="gone"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/courselist"/>
+                  <androidx.recyclerview.widget.RecyclerView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/faculties"/>
+
+        </LinearLayout>
+        </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/contribute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/appColor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="60dp"
+        android:text="Contribute Questions"
+        android:fontFamily="@font/metro_m"
+        android:textColor="@color/white"
+        android:padding="20dp"/>
+
+
+</RelativeLayout>

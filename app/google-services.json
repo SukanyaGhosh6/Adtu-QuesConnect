@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "711155875255",
+    "firebase_url": "https://adtu-quesconnect-89f4f-default-rtdb.firebaseio.com",
+    "project_id": "adtu-quesconnect-89f4f",
+    "storage_bucket": "adtu-quesconnect-89f4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711155875255:android:81074993d3ab21aca1fc32",
+        "android_client_info": {
+          "package_name": "com.adtu.quesconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711155875255-m528f0ej4u7cdjt6063osk8dgpjn2ak3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzOgfVeba3nNnjFh5Ubz4iewTJtdVhs2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711155875255-m528f0ej4u7cdjt6063osk8dgpjn2ak3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

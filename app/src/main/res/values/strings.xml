@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ADTU QuesConnect</string>
+    <string name="title_activity_inside_profile">InsideProfileActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="question_goes_here">Question goes here..........................................................................................
+    ..........................................................................................
+    </string>
+    <string name="privacy_policy"><![CDATA[This Privacy Policy is a part of the Terms & Conditions and all terms defined in the Terms and Conditions have the same meaning used here in this Privacy Policy. This Privacy Policy statement shall apply to all users who visit and access Pharma Pupil\'s App (collectively referred to as App). The users unconditionally agree that using the App and/or using its services signifies their unconditional assent to this Privacy Policy. We respect the privacy of it\'s users and is committed to protect it in all respects. Any dispute with Pharma Pupil over privacy matters are subject to this Privacy Policy read in conjunction with the Terms and Conditions.
+  ]]></string>
+
+    <string-array name="spinner_category">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+    </string-array>
+</resources>
