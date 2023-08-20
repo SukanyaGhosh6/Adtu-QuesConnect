@@ -72,7 +72,7 @@ Contributions to Adtu Quesconnect are welcome! If you'd like to contribute to th
 
 For any inquiries or feedback regarding the Adtu Quesconnect project, please contact:
 
-- Project Lead: Sukanya Ghosh(mailto: sukanyaghosh.adtu@gmail.com)
+- Sukanya Ghosh(mailto: sukanyaghosh.adtu@gmail.com)
 
 Feel free to raise any issues on the GitHub repository as well.
 
