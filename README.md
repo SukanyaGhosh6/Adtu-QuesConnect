@@ -38,7 +38,7 @@ To run the Adtu Quesconnect project on your local machine, follow these steps:
 
 1. **Prerequisites:**
    - Make sure you have Android Studio installed on your computer.
-   - Clone this repository to your local machine using `git clone https://github.com/your-username/Adtu-Quesconnect.git`.
+   - Clone this repository to your local machine using `git clone https://github.com/SukanyaGhosh6/Adtu-Quesconnect.git`.
 
 2. **Open Project:**
    - Open Android Studio and select "Open an Existing Project."
